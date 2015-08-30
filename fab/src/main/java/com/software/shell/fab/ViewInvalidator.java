@@ -18,7 +18,6 @@
 
 package com.software.shell.fab;
 
-import android.util.Log;
 import android.view.View;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

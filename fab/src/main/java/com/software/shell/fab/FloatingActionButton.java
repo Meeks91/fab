@@ -18,10 +18,11 @@
 
 package com.software.shell.fab;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.os.Build;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.animation.Animation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,11 +41,12 @@ import org.slf4j.LoggerFactory;
  * @since 1.0.0
  */
 @Deprecated
-public class FloatingActionButton extends ActionButton{
+public class FloatingActionButton extends ActionButton {
 
 	/**
 	 * Logger
 	 */
+	@SuppressWarnings("deprecation")
 	private static final Logger LOGGER = LoggerFactory.getLogger(FloatingActionButton.class);
 	
 	@Deprecated
@@ -65,6 +67,7 @@ public class FloatingActionButton extends ActionButton{
 	}
 
 	@Deprecated
+	@TargetApi(Build.VERSION_CODES.LOLLIPOP)
 	public FloatingActionButton(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
 		super(context, attrs, defStyleAttr, defStyleRes);
 		initActionButton(context, attrs, defStyleAttr, defStyleRes);
@@ -146,7 +149,8 @@ public class FloatingActionButton extends ActionButton{
 	public void setAnimationOnHide(Animations animation) {
 		setHideAnimation(animation);
 	}
-	
+
+	@SuppressWarnings("deprecation")
 	private void initActionButton(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
 		TypedArray attributes = context.getTheme().obtainStyledAttributes(attrs, R.styleable.ActionButton, 
 				defStyleAttr, defStyleRes);

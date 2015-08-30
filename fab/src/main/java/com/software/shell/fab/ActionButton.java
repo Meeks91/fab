@@ -232,11 +232,11 @@ public class ActionButton extends View {
 	/**
 	 * Creates an instance of the <b>Action Button</b>
 	 * <p>
-	 * Used when inflating the declared <b>Action Button</b> 
+	 * Used when inflating the declared <b>Action Button</b>
 	 * within XML resource
 	 * <p>
 	 * Might be called if target API is LOLLIPOP (21) and higher
-	 *  
+	 *
 	 * @param context context the view is running in
 	 * @param attrs attributes of the XML tag that is inflating the view
 	 * @param defStyleAttr attribute in the current theme that contains a
@@ -1175,6 +1175,7 @@ public class ActionButton extends View {
 	 *              image drawable and used as parameter when calling
 	 *              {@link #setImageDrawable(android.graphics.drawable.Drawable)}              
 	 */
+	@SuppressWarnings("deprecation")
 	public void setImageResource(int resId) {
 		setImageDrawable(getResources().getDrawable(resId));
 	}

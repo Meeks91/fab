@@ -16,4 +16,5 @@
  * File created: 2015-01-17 10:08:50
  */
 
+rootProject.name = 'fab-root'
 include ':fab', ':sample'
