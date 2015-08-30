@@ -609,8 +609,8 @@ To enable logging:
 
 If You would like your application to be to this list please <a href="mailto:com.software.shell@gmail.com?subject=[ActionButton]: Add my application to the list">write me</a> or create the pull request
 
-Icon|Application
-:-:|:-
+Icon | Application
+:-:|:--|
 <img src="https://lh3.googleusercontent.com/tyDkY3GmUrMX4nIUA5xtlTd3CHpxRLn-VVpRg26ZmqX-RTURwmyXwp36Nl2woPYZilI=w300" alt="Code Buddy Image" height="42" width="42" /> | [**CodeBuddy**](https://play.google.com/store/apps/details?id=aniruddha.chetan.codes&hl=en)
 
 ## License
