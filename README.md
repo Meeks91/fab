@@ -611,7 +611,8 @@ If You would like your application to be to this list please <a href="mailto:com
 
 Icon | Application
 :-:|:--|
-<img src="https://lh3.googleusercontent.com/tyDkY3GmUrMX4nIUA5xtlTd3CHpxRLn-VVpRg26ZmqX-RTURwmyXwp36Nl2woPYZilI=w300" alt="Code Buddy Image" height="42" width="42" /> | [**CodeBuddy**](https://play.google.com/store/apps/details?id=aniruddha.chetan.codes&hl=en)
+<img src="https://lh3.googleusercontent.com/tyDkY3GmUrMX4nIUA5xtlTd3CHpxRLn-VVpRg26ZmqX-RTURwmyXwp36Nl2woPYZilI=w42" alt="Code Buddy Image"/> | [**CodeBuddy**](https://play.google.com/store/apps/details?id=aniruddha.chetan.codes)
+<img src="https://lh3.ggpht.com/Vn9sIUPcCVihrxMATWR_MjCIFuc5quCw-R3UN8Rmoze7rgaBhHdmF2RqjX3x28EJoQ=w42" alt="Temperature Metric Converter Image"/> | [**Temperature Metric Converter**](https://play.google.com/store/apps/details?id=com.danielfritzsch.temperatureconverter)
 
 ## License
 
