@@ -607,7 +607,7 @@ To enable logging:
 	
 ## Applications that use ActionButton Library
 
-If You would like your application to be to this list please <a href="mailto:com.software.shell@gmail.com?subject=[ActionButton]: Add my application to the list">write me</a> or create the pull request
+If You would like your application to be added to this list please <a href="mailto:com.software.shell@gmail.com?subject=[ActionButton]: Add my application to the list">write me</a> or create the pull request
 
 Icon | Application
 :-:|:--|
